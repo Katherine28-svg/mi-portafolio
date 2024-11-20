@@ -1,0 +1,66 @@
+/* Cambiar el color de fondo y del texto del encabezado navbar */
+nav.navbar {
+    background-color: #7E674F; /* barrita */
+  }
+  
+  .navbar a.navbar-brand,
+  .navbar a.nav-link {
+    color: #ffffff; /* color de "portafolio" */
+  }
+
+  h1.display-4{ /* ¡Hola! Explora mi mundo creativo... */
+    color: #ffffff;
+    font-size: 3.1rem;
+  }
+
+  p.lead{
+    color: rgb(255, 255, 255);  /* Con más de tres años... */
+    font-size: 1.2rem;
+  }
+
+  .contacto{   /* Gracias por visitar... */
+    color: #000000;
+  }
+  
+  /* Cambiar el color de fondo y del texto del Jumbotron */
+  
+div.jumbotron {
+    background-color: rgba(12, 0, 0, 0.8); /* Fondo translúcido */
+  }
+
+  /* Estilos personalizados para el footer */
+  footer{
+    background-color: #7E674F; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 1rem;
+    text-align: justify; /* Justificar el texto */
+}
+    /* Estilos para el texto justificado a la derecha */
+.texto-derecha {
+    text-align: right; /* Alinear el texto a la derecha */ 
+  }
+
+   /* Estilos personalizados para el cuerpo con imagen de fondo */
+   body {
+    background-image: url('img/cuerpo.png'); /* Reemplaza 'ruta-de-la-imagen.jpg' con la ruta o URL de tu imagen */
+    background-size: cover; /* Ajustar la imagen para cubrir todo el fondo */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    color: #333; /* Color del texto */
+    font-family: Arial, sans-serif; /* Familia de fuentes */
+    margin-bottom: 60px; /* Margen inferior para el footer */
+  }
+
+  .my-container {
+    padding: 20px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2rem;
+  }
+
+  .col-md-6{
+    border-radius: 2rem;
+    color: #000000;
+  }
